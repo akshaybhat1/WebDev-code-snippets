@@ -1,83 +1,97 @@
-<style>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  min-height: 200vh;
-}
-.red {
-  min-height: 100vh;
-}
-.red h1 {
-  background-color: red;
-  text-align: center;
-  padding: 1rem;
-  position: sticky;
-  top: 0;
-}
-.green h1 {
-  background-color: green;
-  padding: 1rem;
-  position: sticky;
-  top: 0;
-  text-align: center;
-}
-.green {
-  min-height: 100vh;
-}
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        html {
+          scroll-behavior: smooth;
+        }
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          min-height: 200vh;
+        }
+        .red {
+          min-height: 100vh;
+        }
+        .red h1 {
+          background-color: red;
+          text-align: center;
+          padding: 1rem;
+          position: sticky;
+          top: 0;
+        }
+        .green h1 {
+          background-color: green;
+          padding: 1rem;
+          position: sticky;
+          top: 0;
+          text-align: center;
+        }
+        .green {
+          min-height: 100vh;
+        }
 
-.blue {
-  min-height: 100vh;
-}
-.blue h1 {
-  background-color: blue;
-  padding: 1rem;
-  text-align: center;
-  position: sticky;
-  top: 0;
-}
-footer {
-  padding: 3rem;
-  background-color: black;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  /* display: ; */
-}
-footer a {
-  color: white;
-  text-decoration: none;
-  padding: 1rem;
-}
-footer a:hover,
-footer a:focus {
-  color: rgba(255, 228, 196, 0.589);
-}
-.social {
-  font: inherit;
-  background-color: aquamarine;
-  padding: 1rem;
-  border: 1px solid aqua;
-  border-radius: 0.5rem;
-  position: fixed;
-  top: 200px;
-  z-index: 1;
-}
+        .blue {
+          min-height: 100vh;
+        }
+        .blue h1 {
+          background-color: blue;
+          padding: 1rem;
+          text-align: center;
+          position: sticky;
+          top: 0;
+        }
+        footer {
+          padding: 3rem;
+          background-color: black;
+          text-align: center;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          /* display: ; */
+        }
+        footer a {
+          color: white;
+          text-decoration: none;
+          padding: 1rem;
+        }
+        footer a:hover,
+        footer a:focus {
+          color: rgba(255, 228, 196, 0.589);
+        }
+        .social {
+          font: inherit;
+          background-color: aquamarine;
+          padding: 1rem;
+          border: 1px solid aqua;
+          border-radius: 0.5rem;
+          position: fixed;
+          top: 200px;
+          z-index: 1;
+        }
 
 
 
-</style>
+      </style>
 
-<body>
+
+
+
+
+  </head>
+  <body>
     <button class="social">🚀</button>
     <header id="first" class="red">
       <h1>Header 1</h1>
@@ -97,3 +111,4 @@ footer a:focus {
       <a href="#third">Three</a>
     </footer>
   </body>
+</html>
